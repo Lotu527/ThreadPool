@@ -4,9 +4,11 @@
 #include<functional>
 #include<ctime>
 
-using Task = std::function<void ()>;
-namespace ThreadPool
+
+namespace ThreadPoolNS
 {
+    using Task = std::function<void ()>;
+    
     struct Timertask{
 
     bool _flag;

@@ -12,7 +12,7 @@
 #include <queue>//priority_queue
 
 
-namespace ThreadPool
+namespace ThreadPoolNS
 {
     class ThreadPool
     {
